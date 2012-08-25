@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>configuredReceiver</key>
+		<string>Nexa</string>
+		<key>house</key>
+		<string>C</string>
+		<key>properties</key>
+		<dict>
+			<key>title</key>
+			<string>Vardagsrummet</string>
+		</dict>
+		<key>unit</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>configuredReceiver</key>
+		<string>Nexa</string>
+		<key>house</key>
+		<string>A</string>
+		<key>properties</key>
+		<dict>
+			<key>title</key>
+			<string>Radio</string>
+		</dict>
+		<key>unit</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>configuredReceiver</key>
+		<string>Nexa</string>
+		<key>house</key>
+		<string>A</string>
+		<key>properties</key>
+		<dict>
+			<key>title</key>
+			<string>Sovrummet</string>
+		</dict>
+		<key>unit</key>
+		<string>1</string>
+	</dict>
+</array>
+</plist>

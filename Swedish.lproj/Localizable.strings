@@ -1,0 +1,74 @@
+﻿/* 
+   Localizable.strings
+   Ulterius
+
+   Created by Per Ohlson on 2008-12-21.
+   Copyright 2008 __MyCompanyName__. All rights reserved.
+ */
+
+
+"Schedule" = "Planera";
+"Events" = "Händelse";
+"Tranceiver" = "Sändare";
+"Receiver" = "Mottagare";
+"TestCommand" = "Testa Kommando";
+"ReinstallTool" = "Uppdatera Hjälpverktyg";
+"DeviceStatus" = "Enhetsstatus";
+"alertCommentInit" = "Ulterius hjälpverktyg är uppdaterat och kräver ominstallation.\n\nInstallerad version: %@ \nNy version: %@";
+"alertCommentReinstall" = "Vill du ominstallera Ulterius hjälpverktyg för säker hantering av schemalagda händelser?";
+"alertCommentInstall" = "Ulterius behöver installera ett hjälpverktyg för säker hantering av schemalagda händelser.";
+"SaveWindowMessage" = "Vill du spara ändringar för din nuvarande konfiguration?";
+"SaveWindowInformation" = "Förändringar kommer förloras om du ej sparar.";
+"nameTaken" = "Namnet '%@' är upptaget. Väl ett annat namn";
+
+/*"Monday" = "Måndag";
+"Tuesday" = "Tisdag";
+"Wednesday" = "Onsdag";
+"Thursday" = "Torsdag";
+"Friday" = "Fredag";
+"Saturday" = "Lördag";
+"Sunday" = "Söndag";
+*/
+
+"Tranceivers" = "Sändare";
+"Reload Device Status" = "Uppdatera Enhetsstatus";
+
+// GUI
+// Tabs
+"Scheduling" = "Schemaläggning";
+"Advanced" = "Avancerat";
+		
+// Scheduling tab
+// Events
+"Enabled" = "Aktiverad";
+"Date" = "Datum";
+"Command" = "Kommando";
+"Recurring" = "Återkommande";
+"Weekday" = "Veckodag";
+"Custom Recurring" = "Annan";
+"Save Changes" = "Spara Ändringar";
+
+// Columns
+"Events" = "Händelse";
+"Unit" = "Enhet";
+"House" = "Hus";
+"Model" = "Modell";
+"My Receivers" = "Mina Mottagare";
+
+// Manual Control
+"On" = "På";
+"Off" = "Av";
+"All On" = "Alla På";
+"All Off" = "Alla Av";
+"Test Event" = "Testa Händelse";
+		
+"Start Speech Recognition" = "Starta Taligenkänning";
+		
+// Advanced tab
+"Receiver Models" = "Mottagare";
+"Transceivers" = "Sändare";
+"Reload Device" = "Ladda Enhet";
+"Units" = "Enheter";
+"Houses" = "Hus";
+"Commands" = "Kommandon";
+

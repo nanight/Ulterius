@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		311431B90ECCB9B000B6F67C /* Transceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 311431B00ECCB9B000B6F67C /* Transceiver.m */; };
+		311431BA0ECCB9B000B6F67C /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 311431B20ECCB9B000B6F67C /* Command.m */; };
+		311431BB0ECCB9B000B6F67C /* MyReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 311431B50ECCB9B000B6F67C /* MyReceiver.m */; };
+		311431BC0ECCB9B000B6F67C /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 311431B60ECCB9B000B6F67C /* Receiver.m */; };
+		311431BD0ECCB9B000B6F67C /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311431B80ECCB9B000B6F67C /* AppController.m */; };
+		311431D60ECCBAA700B6F67C /* libftd2xx.0.1.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 311431D40ECCBAA700B6F67C /* libftd2xx.0.1.4.dylib */; };
+		311431D70ECCBAA700B6F67C /* libftd2xx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 311431D50ECCBAA700B6F67C /* libftd2xx.dylib */; };
+		3114320C0ECCC6DE00B6F67C /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114320B0ECCC6DE00B6F67C /* Event.m */; };
+		3126E7E20EFE6338008CDF95 /* myReceivers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3126E7E10EFE6338008CDF95 /* myReceivers.plist */; };
+		3148CD290EFE89B200C88633 /* receivers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3148CD280EFE89B200C88633 /* receivers.plist */; };
+		31746FD30F05A4890090F84B /* tellCon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 31746FD20F05A4890090F84B /* tellCon.icns */; };
+		31B283730ED977E5000B90EA /* HelperTool in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31B283530ED97376000B90EA /* HelperTool */; };
+		31B283740ED977F4000B90EA /* InstallTool in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31B2835C0ED97383000B90EA /* InstallTool */; };
+		31B283780ED97870000B90EA /* BetterAuthorizationSampleLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B283770ED97870000B90EA /* BetterAuthorizationSampleLib.c */; };
+		31B283790ED97870000B90EA /* BetterAuthorizationSampleLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B283770ED97870000B90EA /* BetterAuthorizationSampleLib.c */; };
+		31B2837F0ED9788F000B90EA /* BetterAuthorizationSampleLibInstallTool.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B2837E0ED9788F000B90EA /* BetterAuthorizationSampleLibInstallTool.c */; };
+		31B283830ED97947000B90EA /* Common.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B283820ED97947000B90EA /* Common.c */; };
+		31B283840ED97947000B90EA /* Common.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B283820ED97947000B90EA /* Common.c */; };
+		31B283C30ED986D1000B90EA /* UlteriusTool.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B283C20ED986D1000B90EA /* UlteriusTool.c */; };
+		31B283C50ED98B48000B90EA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B283C40ED98B48000B90EA /* CoreFoundation.framework */; };
+		31B284B30ED9950B000B90EA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B5DD1D0ED8305C008FEB23 /* Security.framework */; };
+		31B5DD1E0ED8305C008FEB23 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B5DD1D0ED8305C008FEB23 /* Security.framework */; };
+		31CDCF450EE1D0C200594C07 /* tsdaemon in Resources */ = {isa = PBXBuildFile; fileRef = 31CDCF430EE1D0BF00594C07 /* tsdaemon */; };
+		31D92ADC0F000A7500600374 /* transceivers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31D92ADB0F000A7500600374 /* transceivers.plist */; };
+		31E5E3CD0F99EC2C00F86E4A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31E5E3CC0F99EC2C00F86E4A /* Localizable.strings */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31B283650ED97562000B90EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B283520ED97376000B90EA;
+			remoteInfo = HelperTool;
+		};
+		31B283670ED97562000B90EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B2835B0ED97383000B90EA;
+			remoteInfo = InstallTool;
+		};
+		31D2BA5115E8D70F001ACCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31D2BA3F15E8D70E001ACCA2 /* tsdaemon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76F7E0486A8DE00D96B5E;
+			remoteInfo = tsdaemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31B283700ED975E0000B90EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				31B283740ED977F4000B90EA /* InstallTool in CopyFiles */,
+				31B283730ED977E5000B90EA /* HelperTool in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		311431AF0ECCB9B000B6F67C /* Transceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transceiver.h; sourceTree = "<group>"; };
+		311431B00ECCB9B000B6F67C /* Transceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transceiver.m; sourceTree = "<group>"; };
+		311431B10ECCB9B000B6F67C /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		311431B20ECCB9B000B6F67C /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		311431B30ECCB9B000B6F67C /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		311431B40ECCB9B000B6F67C /* MyReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReceiver.h; sourceTree = "<group>"; };
+		311431B50ECCB9B000B6F67C /* MyReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReceiver.m; sourceTree = "<group>"; };
+		311431B60ECCB9B000B6F67C /* Receiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		311431B70ECCB9B000B6F67C /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		311431B80ECCB9B000B6F67C /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		311431D20ECCBA9700B6F67C /* WinTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinTypes.h; sourceTree = "<group>"; };
+		311431D30ECCBA9700B6F67C /* ftd2xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftd2xx.h; sourceTree = "<group>"; };
+		311431D40ECCBAA700B6F67C /* libftd2xx.0.1.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libftd2xx.0.1.4.dylib; path = /usr/local/lib/libftd2xx.0.1.4.dylib; sourceTree = "<absolute>"; };
+		311431D50ECCBAA700B6F67C /* libftd2xx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libftd2xx.dylib; path = /usr/local/lib/libftd2xx.dylib; sourceTree = "<absolute>"; };
+		3114320A0ECCC6DE00B6F67C /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		3114320B0ECCC6DE00B6F67C /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		3126E7E10EFE6338008CDF95 /* myReceivers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myReceivers.plist; sourceTree = "<group>"; };
+		3148CD280EFE89B200C88633 /* receivers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = receivers.plist; sourceTree = "<group>"; };
+		3148CE1C0EFECA7F00C88633 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		31746FD20F05A4890090F84B /* tellCon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = tellCon.icns; path = Icons/tellCon.icns; sourceTree = "<group>"; };
+		31B283530ED97376000B90EA /* HelperTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelperTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B2835C0ED97383000B90EA /* InstallTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InstallTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B283770ED97870000B90EA /* BetterAuthorizationSampleLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BetterAuthorizationSampleLib.c; sourceTree = "<group>"; };
+		31B2837E0ED9788F000B90EA /* BetterAuthorizationSampleLibInstallTool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BetterAuthorizationSampleLibInstallTool.c; sourceTree = "<group>"; };
+		31B283800ED9789F000B90EA /* BetterAuthorizationSampleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterAuthorizationSampleLib.h; sourceTree = "<group>"; };
+		31B283810ED97947000B90EA /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		31B283820ED97947000B90EA /* Common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Common.c; sourceTree = "<group>"; };
+		31B283C20ED986D1000B90EA /* UlteriusTool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UlteriusTool.c; sourceTree = "<group>"; };
+		31B283C40ED98B48000B90EA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		31B5DD1D0ED8305C008FEB23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		31CDCF430EE1D0BF00594C07 /* tsdaemon */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = tsdaemon; path = ../tsdaemon/build/Release/tsdaemon; sourceTree = SOURCE_ROOT; };
+		31CDCF7A0EE1FD0500594C07 /* UlteriusDebug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UlteriusDebug-Info.plist"; sourceTree = "<group>"; };
+		31D2BA3F15E8D70E001ACCA2 /* tsdaemon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tsdaemon.xcodeproj; path = ../tsdaemon/tsdaemon.xcodeproj; sourceTree = "<group>"; };
+		31D92ADB0F000A7500600374 /* transceivers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = transceivers.plist; sourceTree = "<group>"; };
+		31E5E3CE0F99EC4D00F86E4A /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Swedish; path = Swedish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Ulterius_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ulterius_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Ulterius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ulterius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31B283510ED97376000B90EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B283C50ED98B48000B90EA /* CoreFoundation.framework in Frameworks */,
+				31B284B30ED9950B000B90EA /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B2835A0ED97383000B90EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				311431D60ECCBAA700B6F67C /* libftd2xx.0.1.4.dylib in Frameworks */,
+				311431D70ECCBAA700B6F67C /* libftd2xx.dylib in Frameworks */,
+				31B5DD1E0ED8305C008FEB23 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				31B283810ED97947000B90EA /* Common.h */,
+				31B283820ED97947000B90EA /* Common.c */,
+				311431AF0ECCB9B000B6F67C /* Transceiver.h */,
+				311431B00ECCB9B000B6F67C /* Transceiver.m */,
+				311431B10ECCB9B000B6F67C /* Command.h */,
+				311431B20ECCB9B000B6F67C /* Command.m */,
+				311431B30ECCB9B000B6F67C /* Receiver.h */,
+				311431B60ECCB9B000B6F67C /* Receiver.m */,
+				311431B40ECCB9B000B6F67C /* MyReceiver.h */,
+				311431B50ECCB9B000B6F67C /* MyReceiver.m */,
+				3114320A0ECCC6DE00B6F67C /* Event.h */,
+				3114320B0ECCC6DE00B6F67C /* Event.m */,
+				311431B70ECCB9B000B6F67C /* AppController.h */,
+				311431B80ECCB9B000B6F67C /* AppController.m */,
+				31B283C20ED986D1000B90EA /* UlteriusTool.c */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31B283C40ED98B48000B90EA /* CoreFoundation.framework */,
+				31B5DD1D0ED8305C008FEB23 /* Security.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Ulterius.app */,
+				31B283530ED97376000B90EA /* HelperTool */,
+				31B2835C0ED97383000B90EA /* InstallTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Ulterius */ = {
+			isa = PBXGroup;
+			children = (
+				31D2BA3F15E8D70E001ACCA2 /* tsdaemon.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				31CDCF7A0EE1FD0500594C07 /* UlteriusDebug-Info.plist */,
+			);
+			name = Ulterius;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Ulterius_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31746FD20F05A4890090F84B /* tellCon.icns */,
+				31204C990EE2A52900E14A2C /* defaults */,
+				31CDCF430EE1D0BF00594C07 /* tsdaemon */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				31E5E3CC0F99EC2C00F86E4A /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31B283800ED9789F000B90EA /* BetterAuthorizationSampleLib.h */,
+				31B2837E0ED9788F000B90EA /* BetterAuthorizationSampleLibInstallTool.c */,
+				31B283770ED97870000B90EA /* BetterAuthorizationSampleLib.c */,
+				311431D40ECCBAA700B6F67C /* libftd2xx.0.1.4.dylib */,
+				311431D50ECCBAA700B6F67C /* libftd2xx.dylib */,
+				311431D20ECCBA9700B6F67C /* WinTypes.h */,
+				311431D30ECCBA9700B6F67C /* ftd2xx.h */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31204C990EE2A52900E14A2C /* defaults */ = {
+			isa = PBXGroup;
+			children = (
+				3126E7E10EFE6338008CDF95 /* myReceivers.plist */,
+				3148CD280EFE89B200C88633 /* receivers.plist */,
+				31D92ADB0F000A7500600374 /* transceivers.plist */,
+			);
+			path = defaults;
+			sourceTree = "<group>";
+		};
+		31D2BA4015E8D70E001ACCA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31D2BA5215E8D70F001ACCA2 /* tsdaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31B283520ED97376000B90EA /* HelperTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B283630ED97384000B90EA /* Build configuration list for PBXNativeTarget "HelperTool" */;
+			buildPhases = (
+				31B283500ED97376000B90EA /* Sources */,
+				31B283510ED97376000B90EA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelperTool;
+			productName = HelperTool;
+			productReference = 31B283530ED97376000B90EA /* HelperTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		31B2835B0ED97383000B90EA /* InstallTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B283640ED97384000B90EA /* Build configuration list for PBXNativeTarget "InstallTool" */;
+			buildPhases = (
+				31B283590ED97383000B90EA /* Sources */,
+				31B2835A0ED97383000B90EA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstallTool;
+			productName = InstallTool;
+			productReference = 31B2835C0ED97383000B90EA /* InstallTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		8D1107260486CEB800E47090 /* Ulterius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Ulterius" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				31B283700ED975E0000B90EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31B283660ED97562000B90EA /* PBXTargetDependency */,
+				31B283680ED97562000B90EA /* PBXTargetDependency */,
+			);
+			name = Ulterius;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Ulterius;
+			productReference = 8D1107320486CEB800E47090 /* Ulterius.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ulterius" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Swedish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Ulterius */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 31D2BA4015E8D70E001ACCA2 /* Products */;
+					ProjectRef = 31D2BA3F15E8D70E001ACCA2 /* tsdaemon.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Ulterius */,
+				31B283520ED97376000B90EA /* HelperTool */,
+				31B2835B0ED97383000B90EA /* InstallTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		31D2BA5215E8D70F001ACCA2 /* tsdaemon */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tsdaemon;
+			remoteRef = 31D2BA5115E8D70F001ACCA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CDCF450EE1D0C200594C07 /* tsdaemon in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				3126E7E20EFE6338008CDF95 /* myReceivers.plist in Resources */,
+				3148CD290EFE89B200C88633 /* receivers.plist in Resources */,
+				31E5E3CD0F99EC2C00F86E4A /* Localizable.strings in Resources */,
+				31D92ADC0F000A7500600374 /* transceivers.plist in Resources */,
+				31746FD30F05A4890090F84B /* tellCon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31B283500ED97376000B90EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B283790ED97870000B90EA /* BetterAuthorizationSampleLib.c in Sources */,
+				31B283840ED97947000B90EA /* Common.c in Sources */,
+				31B283C30ED986D1000B90EA /* UlteriusTool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B283590ED97383000B90EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B2837F0ED9788F000B90EA /* BetterAuthorizationSampleLibInstallTool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				311431B90ECCB9B000B6F67C /* Transceiver.m in Sources */,
+				311431BA0ECCB9B000B6F67C /* Command.m in Sources */,
+				311431BB0ECCB9B000B6F67C /* MyReceiver.m in Sources */,
+				311431BC0ECCB9B000B6F67C /* Receiver.m in Sources */,
+				311431BD0ECCB9B000B6F67C /* AppController.m in Sources */,
+				3114320C0ECCC6DE00B6F67C /* Event.m in Sources */,
+				31B283780ED97870000B90EA /* BetterAuthorizationSampleLib.c in Sources */,
+				31B283830ED97947000B90EA /* Common.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31B283660ED97562000B90EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B283520ED97376000B90EA /* HelperTool */;
+			targetProxy = 31B283650ED97562000B90EA /* PBXContainerItemProxy */;
+		};
+		31B283680ED97562000B90EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B2835B0ED97383000B90EA /* InstallTool */;
+			targetProxy = 31B283670ED97562000B90EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		31E5E3CC0F99EC2C00F86E4A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3148CE1C0EFECA7F00C88633 /* English */,
+				31E5E3CE0F99EC4D00F86E4A /* Swedish */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31B283550ED97376000B90EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HelperTool;
+			};
+			name = Debug;
+		};
+		31B283560ED97376000B90EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HelperTool;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		31B283600ED97383000B90EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = InstallTool;
+			};
+			name = Debug;
+		};
+		31B283610ED97383000B90EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = InstallTool;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ulterius_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications;
+				PRODUCT_NAME = Ulterius;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ulterius_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Ulterius;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31B283630ED97384000B90EA /* Build configuration list for PBXNativeTarget "HelperTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B283550ED97376000B90EA /* Debug */,
+				31B283560ED97376000B90EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B283640ED97384000B90EA /* Build configuration list for PBXNativeTarget "InstallTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B283600ED97383000B90EA /* Debug */,
+				31B283610ED97383000B90EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Ulterius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ulterius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
